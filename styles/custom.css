@@ -1,0 +1,199 @@
+
+
+/* header */
+
+.header{
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-1);
+}
+
+/* jumbotron */
+
+body{
+    background: url("images/placeholder.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: var(--color-2);
+}
+
+.container-fluid{
+    background-color: var(--color-3);
+    padding-top: 0px;
+}
+
+.first-row {
+    margin-bottom: 30px;
+    margin-top: 300px;
+}
+
+.first-column {
+    min-height: 200px;
+}
+
+.main-elements {
+    color: var(--color-1);
+    position: absolute;
+    bottom: 20px;
+}
+
+.maininfo {
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    padding: 45px;
+    padding-bottom: 170px;
+    color: var(--color-1);
+}
+
+q{
+    font-style: italic;
+    font-size: 22px;
+    quotes: none;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+.first-line {
+    width: 100%;
+    border-bottom: 2px solid white;
+    margin-bottom: 12px;
+}
+
+.mainquote {
+    font-size: 32px;
+}
+
+/* body */
+
+.card{
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    padding: 30px; /*padding en niet margin omdat anders alles zal opschuiven naar links */
+    padding-top: 45px;
+    padding-bottom: 60px;
+    
+        /* code om cards even lang te maken hieronder */
+
+    height: calc(100% - 10px);
+    margin-bottom: 130px;
+}
+
+.cardrow {
+    padding-bottom: 60px;
+}
+
+/* card colors */
+
+.cardcol-1 {
+    background-color: var(--color-1);
+}
+
+.title-1 {
+    color: var(--color-1)
+}
+
+.cardcol-2 {
+    background-color: var(--color-2);
+}
+
+.title-2 {
+    color: var(--color-2)
+}
+
+.cardcol-3 {
+    background-color: var(--color-5);
+}
+
+.title-3 {
+    color: var(--color-5)
+}
+
+.cardcol-4 {
+    background-color: var(--color-2);
+}
+
+.title-4 {
+    color: var(--color-2)
+}
+
+/* end card colors */
+
+.image-title{
+    position: relative;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+}
+
+.names {
+    position: absolute;
+    bottom: 20px;
+    margin-right: 30px;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin-bottom: 12px;
+}
+
+button {
+    float: right;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.info{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.footer-row {
+    background-color: var(--color-2);
+}
+
+.footer-col {
+    padding-top: 20px;
+}
+
+.footer {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-3); 
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.logo-ah {
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+}
