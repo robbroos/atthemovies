@@ -5,55 +5,61 @@
 .header{
     font-size: 72px;
     text-align: center;
-    text-transform: uppercase;
     font-weight: bold;
-    color: var(--color-1);
+    font-family: var(--font-family-quote);
+    border-color: black;
 }
 
 /* jumbotron */
 
-body{
-    background: url("images/placeholder.png");
+.jumbotron{
+
+    background-image: url("images/django_unchained.jpg");
+    height: 720px; 
+
+    /* parallax */
     background-attachment: fixed;
-    background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-color: var(--color-2);
+    background-size: cover;
+
+    /* Code om spul aan onderkant te plaatsen */
+    position: relative;
+    padding-top: 260px;
+}
+.first-column{
+    color: white;
+    width: 100%;
+    position: relative;
+    padding-left: 0;
 }
 
-.container-fluid{
-    background-color: var(--color-3);
-    padding-top: 0px;
-}
-
-.first-row {
-    margin-bottom: 30px;
-    margin-top: 300px;
-}
-
-.first-column {
-    min-height: 200px;
-}
-
-.main-elements {
-    color: var(--color-1);
+.main-elements{
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
 }
 
 .maininfo {
+    margin-top: 20px;
     background-color: rgba(0,0,0,0.5);
-    margin-bottom: 20px;
     padding: 45px;
-    padding-bottom: 170px;
-    color: var(--color-1);
+    padding-bottom: 240px;
+    color: white;
+    border: 0;
+}
+
+.container-fluid{
+    background-color: none;
+    padding-top: 0px;
 }
 
 q{
-    font-style: italic;
+    font-family: var(--font-family-quote);
     font-size: 22px;
-    quotes: none;
+
     padding-bottom: 10px;
     text-align: right;
+    margin-bottom: 18px;
 }
 
 h1{
@@ -61,16 +67,18 @@ h1{
     font-weight: bold;
     text-transform: uppercase;
     line-height: 100px;
+    margin-top: 20px;
 }
 
 .first-line {
     width: 100%;
     border-bottom: 2px solid white;
-    margin-bottom: 12px;
+    margin-bottom: 40px;
 }
 
 .mainquote {
     font-size: 32px;
+    font-family: var(--font-family-quote);
 }
 
 /* body */
@@ -85,7 +93,7 @@ h1{
         /* code om cards even lang te maken hieronder */
 
     height: calc(100% - 10px);
-    margin-bottom: 130px;
+    margin-bottom: 200px;
 }
 
 .cardrow {
@@ -95,35 +103,35 @@ h1{
 /* card colors */
 
 .cardcol-1 {
-    background-color: var(--color-1);
+    background-color: rgb(48 169 226);
 }
 
 .title-1 {
-    color: var(--color-1)
+    color: rgb(48 169 226);
 }
 
 .cardcol-2 {
-    background-color: var(--color-2);
+    background-color: rgb(255 207 133);
 }
 
 .title-2 {
-    color: var(--color-2)
+    color: rgb(255 207 133);
 }
 
 .cardcol-3 {
-    background-color: var(--color-5);
+    background-color: rgb(192 239 249);
 }
 
 .title-3 {
-    color: var(--color-5)
+    color: rgb(192 239 249);
 }
 
 .cardcol-4 {
-    background-color: var(--color-2);
+    background-color: rgb(217 220 191);
 }
 
 .title-4 {
-    color: var(--color-2)
+    color: rgb(217 220 191);
 }
 
 /* end card colors */
@@ -143,21 +151,31 @@ h2{
 
 .names {
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     margin-right: 30px;
 }
 
 .line {
     width: 100%;
     border-bottom: 2px solid black;
-    margin-bottom: 12px;
+    margin-bottom: 40px;
 }
 
 button {
+    font-size: 24px;
     float: right;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+
+.first-button {
+    bottom: 25px;
+    right: 25px;
 }
 
 .info{
@@ -175,7 +193,10 @@ img {
 /* footer */
 
 .footer-row {
-    background-color: var(--color-2);
+    background-color: white;
+    border-style: solid none none none;
+    border-width: 2px;
+    border-color: black;
 }
 
 .footer-col {
@@ -184,11 +205,11 @@ img {
 
 .footer {
     font-size: 24px;
-    text-transform: uppercase;
     font-weight: bold;
-    color: var(--color-3); 
+    color: black; 
     margin-top: -5px;
     margin-left: 20px;
+    font-family: var(--font-family-quote);
 }
 
 .logo-ah {

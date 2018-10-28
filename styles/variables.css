@@ -1,12 +1,6 @@
 :root {
-    /* colors --------- */
-    --color-1: white;
-    --color-2: rgba(245,245,245,1);
-    --color-3: grey;
-    --color-4: black;
-    --color-5: rgba(235,235,235,1);
-    
 
     /* fonts --------- */
-    --font-family-quote: 'Kalam', italic;
+    --font-family-quote: 'Lobster', cursive;
+    --font-family-alles: 'Roboto', sans-serif;
     }
